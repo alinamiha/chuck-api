@@ -1,0 +1,276 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+}
+
+.header-logo span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.wide-container {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-title {
+    margin-top: 38px;
+}
+
+.form-title h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #333333;
+}
+
+.form-title .subtitle {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 44px;
+    color: #333333;
+}
+
+.search-options {
+    margin-top: 43px;
+}
+
+.search-options input {
+    accent-color: #000;
+    height: 20px;
+}
+
+.search-options .form-check label {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    color: #333333;
+}
+
+.search-options .form-check {
+    margin-bottom: 16px;
+}
+
+.search-button button {
+    background: linear-gradient(90.55deg, #8EA7FF 0%, #7291FF 100%);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border: none;
+}
+
+.search-button {
+    margin-top: 30px;
+}
+
+.joke-list-wrapper {
+    margin-top: 40px;
+}
+
+.joke-card {
+    background: #F8F8F8;
+    border-radius: 20px;
+    border-radius: 10px;
+    padding: 40px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-id a,
+.card-id span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #ABABAB;
+}
+
+.card-id a {
+    color: #8EA7FF;
+    text-decoration: none;
+}
+
+.card-id a img {
+    margin-left: 5px;
+    transform: translateY(-2px);
+}
+
+.card-category {
+    padding: 6px 20px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #333333;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.card-date {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #ABABAB;
+}
+
+.card-message__icon {
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.favourites h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ABABAB;
+    margin-bottom: 20px;
+}
+
+.favourites {
+    padding: 40px;
+    background: #F8F8F8;
+    height: 100%;
+}
+
+.favourite-card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.favourite-card .card-message__icon {
+    background: #F8F8F8;
+}
+
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    background: #333333;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.close-icon {
+    display: none;
+}
+
+.card-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.menu {
+    background: #F8F8F8;
+}
+
+.hamburger {
+    display: none;
+}
+
+.categories-options {
+    margin-top: 20px;
+    display: flex;
+}
+
+.categories-options__item {
+    border-radius: 6px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #F8F8F8;
+    color: #ABABAB;
+}
+
+.categories-options__item:hover {
+    cursor: pointer;
+}
+
+.categories-options__item.categories-options__item_active,
+.categories-options__item:hover {
+    background-color: #F8F8F8;
+    color: #333333;
+}
+
+.hide {
+    display: none!important;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+#search-input {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    height: 42px;
+    padding: 8px 16px;
+    line-height: 22px;
+    margin-top: 23px;
+    margin-left: -1.25rem;
+    border-radius: 10px;
+    border: 2px solid #333333;
+    color: #ABABAB;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 990px) {
+    .joke-card {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .menu {
+        width: 480px;
+        position: fixed;
+        right: 0;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        bottom: 0;
+        z-index: 99;
+        list-style: none;
+        top: 0;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .show-menu {
+        transform: translateY(0);
+    }
+}
